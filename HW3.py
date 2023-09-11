@@ -31,9 +31,11 @@ def main():
     
     sum_total = sum_list(l)
     product = mult_list(l)
+    rev = reverse(l)
     
     print("Sum: " + str(sum_total))
     print("Product: " + str(product))
+    print("Reverse: " + str(rev))
 
 if __name__ == "__main__":
     main()
