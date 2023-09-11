@@ -11,3 +11,9 @@ def sum_list(my_list):
     for num in my_list:
         my_sum += num
     return my_sum
+
+def mult_list(my_list):
+    prod = 1
+    for num in my_list:
+        prod = prod * num
+    return prod
