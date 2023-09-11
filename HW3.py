@@ -17,3 +17,17 @@ def mult_list(my_list):
     for num in my_list:
         prod = prod * num
     return prod
+
+def main():
+    print("Type a series of numbers separated by spaces, then hit enter.")
+    
+    l = [int(x) for x in input().split()]
+    
+    sum_total = sum_list(l)
+    product = mult_list(l)
+    
+    print("Sum: " + str(sum_total))
+    print("Product: " + str(product))
+
+if __name__ == "__main__":
+    main()
