@@ -18,6 +18,12 @@ def mult_list(my_list):
         prod = prod * num
     return prod
 
+def reverse(my_list):
+    rev = []
+    for i in range(1, (len(my_list) + 1)):
+        rev.append(my_list[(-1 * i)])
+    return rev
+
 def main():
     print("Type a series of numbers separated by spaces, then hit enter.")
     
