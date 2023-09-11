@@ -18,6 +18,12 @@ def mult_list(my_list):
         prod = prod * num
     return prod
 
+def reverse(my_list):
+    rev = []
+    for i in range(1, (len(my_list) + 1)):
+        rev.append(my_list[(-1 * i)])
+    return rev
+
 def main():
     print("Type a series of numbers separated by spaces, then hit enter.")
     
@@ -25,9 +31,11 @@ def main():
     
     sum_total = sum_list(l)
     product = mult_list(l)
+    rev = reverse(l)
     
     print("Sum: " + str(sum_total))
     print("Product: " + str(product))
+    print("Reverse: " + str(rev))
 
 if __name__ == "__main__":
     main()
