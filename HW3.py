@@ -6,12 +6,14 @@ Created on Mon Sep 11 18:36:11 2023
 @author: emmastubby
 """
 
+# method to sum list contents
 def sum_list(my_list):
     my_sum = 0
     for num in my_list:
         my_sum += num
     return my_sum
 
+# method to multiply list contents
 def mult_list(my_list):
     prod = 1
     for num in my_list:
